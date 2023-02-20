@@ -81,6 +81,10 @@ section>div{
     border: 2px dotted black;
 }
 
+svg{
+    display: block;
+}
+
 .backgrey{
     background-color: #f6f6f6;
     height: 400px;
