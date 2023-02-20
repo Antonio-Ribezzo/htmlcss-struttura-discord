@@ -10,19 +10,19 @@ a{
     color: black;
 }
 
+.flex{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
 .conteiner1-header{
     background-color: #b9dbeb;
     height: 50px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding: 10px;
 }
 .conteiner-nav{
-    width: 70%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex-basis: 70%;
 }
 
 .conteiner-nav div{
@@ -38,8 +38,6 @@ a{
     flex-basis: 50%;
     background-color: #dfac34;
     border: 2px dotted black;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 
@@ -50,13 +48,53 @@ a{
 .conteiner2-header{
     background-color: #111098;
     height: 400px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     padding: 40px;
 }
 
 .conteiner2-header div{
     width: 50%;
     background-color: #f09ef3;
+    border: 2px dotted black;
+}
+
+.backwhite{
+    background-color: white;
+    height: 400px;
+    padding: 10px;
+}
+
+section>div{
+    width: 70%;
+    margin: 20px 0;
+    display: flex;
+}
+
+.big-conteiner{
+    flex-basis: 60%;
+    background-color: #3f9bff;
+    border: 2px dotted black;
+}
+
+.small-conteiner{
+    flex-basis: 40%;
+    background-color: #ffcdd6;
+    border: 2px dotted black;
+}
+
+.backgrey{
+    background-color: #f6f6f6;
+    height: 400px;
+    padding: 10px;
+}
+
+.backgrey2{
+    background-color: #f6f6f6;
+    height: 800px;
+    padding: 10px;
+}
+
+#last-image{
+    flex-basis: 100%;
+    background-color: green;
+    border: 2px dotted black;
 }
