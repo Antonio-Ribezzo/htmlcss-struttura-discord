@@ -98,3 +98,53 @@ section>div{
     background-color: green;
     border: 2px dotted black;
 }
+
+footer{
+    background-color: #272c30;
+}
+
+.backfooter1{
+    background-color: #272c30;
+    height: 600px;
+    padding: 5px;
+}
+
+#logosocial{
+    background-color: #f09590;
+    flex-basis: 30%;
+    border: 2px dotted black;
+}
+
+.section-footer{
+    flex-basis: calc(70% / 4);
+    background-color: #4ab0b5;
+    border: 2px dotted white;
+}
+
+hr{
+    color: white;
+}
+
+.backfooter2{
+    background-color: #272c30;
+    height: 200px;
+    padding: 10px;
+}
+
+.conteiner-footer{
+    flex-basis: 70%;
+    background-color: #97f2da;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo{
+    background-color: #f4c7cd;
+    border: 2px dotted black;
+}
+
+#button{
+    background-color: #f4c7cd;
+    border: 2px dotted black;
+}
